@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import Patient from "./patients.schema.js";
+import Report from "./patientReport.schema.js";
 import Doctor from "../../doctors/models/doctors.schema.js";
 
 export default class PatientRepository {
